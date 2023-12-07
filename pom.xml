@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.semadogan</groupId>
+	<artifactId>spring-aop</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>spring-aop</name>
+	<description>Demo project for Spring Boot</description>
+	<properties>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
+	</properties>
+	<!--	<properties>-->
+<!--		<java.version>17</java.version>-->
+<!--	</properties>-->
+	<dependencies>
+<!--		&lt;!&ndash; https://mvnrepository.com/artifact/javax.annotation/javax.annotation-api &ndash;&gt;-->
+<!--		<dependency>-->
+<!--			<groupId>javax.annotation</groupId>-->
+<!--			<artifactId>javax.annotation-api</artifactId>-->
+<!--			<version>1.3.2</version>-->
+<!--		</dependency>-->
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>5.3.18</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.aspectj/aspectjrt -->
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjrt</artifactId>
+			<version>1.9.7</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.aspectj/aspectjweaver -->
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjweaver</artifactId>
+			<version>1.9.7</version>
+		</dependency>
+	</dependencies>
+
+
+</project>
